@@ -1,0 +1,75 @@
+#LocalElectoralLists .filter-container{
+    grid-template-columns: 1fr;
+}
+#LocalElectoralLists .filter-container select{
+    min-width: 200px;
+    background-position: center right 12px;
+    text-indent: 5px;
+    font-size: 1rem;
+}
+.arabic-version #LocalElectoralLists .filter-container select{
+    min-width: 200px;
+    background-position: center left 12px;
+    text-indent: 5px;
+    font-size: 1rem;
+}
+#LocalElectoralLists .filter-container button{
+    font-family: PNU-Bold;
+    font-size: 1.1rem;
+}
+.arabic-version #LocalElectoralLists .filter-container button{
+    font-family: PNU-Bold;
+    font-size: 1rem;
+}
+#LocalElectoralLists .filter-container label{
+    font-family: PNU-Bold;
+    font-size: 1.3rem;
+}
+.arabic-version #LocalElectoralLists .filter-container label{
+    font-family: PNU-Bold;
+    font-size: 1.2rem;
+}
+#LocalElectoralLists .filter-container form {
+    width: 60%;
+}
+.arabic-version #LocalElectoralLists .filter-container form {
+    width: 63%;
+}
+.Candidate-votes-card a{
+    font-size: 1.1rem;
+    padding: 0.5rem 1.1rem;
+}
+.arabic-version .Candidate-votes-card a{
+    font-size: 1rem;
+    padding: 0.5rem 1.8rem;
+}
+.Candidate-votes-card h3{
+    font-size: 1.3rem;
+    font-family: PNU-Medium;
+}
+.arabic-version .Candidate-votes-card h3{
+    font-size: 1.2rem;
+
+}
+.Candidate-votes-card a svg{
+    transform: rotate(180deg);
+}
+.arabic-version .Candidate-votes-card a svg{
+    transform: unset;
+}
+@media (max-width:990px) {
+    #LocalElectoralLists .filter-container form {
+        width: 100%;
+    }
+    .arabic-version #LocalElectoralLists .filter-container form{
+        width: 100%;
+    }
+}
+@media (max-width:1200px) and (min-width:767px){
+    .arabic-version .Candidate-votes-card a{
+        padding: 0.5rem 0.5rem;
+    }
+}
+.arabic-version #LocalElectoralLists .filter-container button{
+    padding: 0.5rem 1.8rem;
+}

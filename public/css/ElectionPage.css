@@ -1,0 +1,172 @@
+.local-list-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #00000059;
+  border-radius: 10px;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.local-list-card picture {
+  padding: 1rem;
+  border-right: 1px solid #00000059;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.arabic-version .local-list-card picture {
+  border-right: unset;
+  border-left: 1px solid #00000059;
+}
+.local-list-card img {
+  width: 204px;
+}
+.local-list-card h3 {
+  font-size: 26px;
+}
+.local-list-card h4 {
+  font-size: 28px;
+  color: #bd3939;
+}
+.candidate-container .local-list-card a {
+  margin-bottom: 1rem;
+}
+.local-list-container .local-list-card {
+  position: relative;
+}
+.local-list-container .local-list-card div {
+  position: unset;
+}
+.local-list-card div {
+  padding: 1rem;
+  position: relative;
+}
+.local-list-card div input[type="checkbox"] {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+}
+.arabic-version .local-list-card div input[type="checkbox"] {
+  right: unset;
+  left: 0;
+  border-bottom-left-radius: unset;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.local-list-card div input[type="checkbox"]:checked {
+  background-color: #11351d;
+  background-image: url(../Assets/Icons/Vector.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* .local-list-card div input[type="checkbox"]:checked::after {
+    content: '\2713'; 
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.candidate-container .local-list-card {
+  flex: 1;
+}
+.candidate-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+.candidate-container picture {
+  background-color: #0000000d;
+  border: none;
+}
+@media (max-width: 990px) {
+  .candidate-container {
+    flex-wrap: wrap;
+  }
+  .candidate-container .local-list-card {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .local-list-card {
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  }
+  .local-list-card picture {
+    width: 100%;
+    border: none;
+  }
+  .local-list-card div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    position: unset;
+  }
+}
+
+.votes-percentage-charts-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 100px;
+}
+.votes-percentage-pie-chart,
+.votes-percentage-bar-chart {
+  width: 90% !important;
+  height: auto !important;
+}
+
+.candidate-container .local-list-card a {
+  font-size: 1.1rem;
+}
+.local-list-card a svg {
+  transform: rotate(180deg);
+}
+.arabic-version .local-list-card a svg {
+  transform: unset;
+}
+.Votes-percentages-opening p {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+.Votes-percentages-opening h2 {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: 1.7rem;
+}
+
+.local-list-card h3 {
+  font-size: 1.6rem;
+}
+.arabic-version .local-list-card h3 {
+  font-size: 1.4rem;
+}
+.arabic-version .Votes-percentages-opening p {
+  line-height: 1.7rem;
+}
+.arabic-version .Votes-percentages-opening h2 {
+  font-size: 1.5rem;
+}
+.arabic-version .local-list-card a {
+  padding: 0.5rem 2rem;
+  font-size: 1.1rem;
+}
+/* Ticket 52*/
+@media (max-width: 768px) {
+  .arabic-version .local-list-card picture {
+    border-radius: inherit;
+  }
+}

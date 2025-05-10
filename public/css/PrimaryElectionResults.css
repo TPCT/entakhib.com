@@ -1,0 +1,112 @@
+#PrimaryElectionResults .filter-container {
+  grid-template-columns: 1fr;
+}
+#PrimaryElectionResults .filter-container select {
+  min-width: 200px;
+  background-position: center right 12px;
+  text-indent: 5px;
+}
+#PrimaryElectionResults .tabpane-two .filter-container {
+  grid-template-columns: 1fr 1fr;
+}
+
+/* 2ns tap */
+
+.electoral-lists-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.electoral-lists-card picture {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000000f;
+  height: 250px;
+}
+.electoral-lists-card picture img {
+  width: 70%;
+  height: 250px;
+}
+.electoral-lists-card-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 1rem;
+  height: 100%;
+}
+.electoral-lists-card {
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #00000059;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .electoral-lists-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .electoral-lists-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Ticket 26 */
+.Candidate-votes-card-content h3,
+.Candidate-votes-card-redbox p {
+  font-size: 1.1rem;
+  font-family: PNU-medium;
+}
+.custom-panel.nav-pills li {
+  font-family: PNU-medium;
+}
+.tabpane-one .secondary-btn {
+  padding: 0.5rem 1.8rem;
+  font-family: PNU-bold;
+}
+.tabpane-one form label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.Candidate-votes-card-redbox p{
+  color: #BD3939;
+}
+/* Ticket 25 */
+.arabic-version #PrimaryElectionResults .filter-container select {
+  background-position: center left 15px;
+}
+.arabic-version .tabpane-one .secondary-btn,
+.arabic-version .custom-panel.nav-pills li {
+  font-size: 1rem;
+}
+.arabic-version .Candidate-votes-card-content h3{
+  line-height: 1.4rem;
+}
+.electoral-lists-card-content h3{
+  font-size: 1.2rem;
+  font-family: PNU-Medium;
+}
+.electoral-lists-card-content h4{
+  font-size: 1.2rem;
+  font-family: PNU-Medium;
+  color: #BD3939;
+}
+.electoral-lists-card a {
+  padding: 0.5rem 1.8rem ;
+  font-size: 1rem;
+}
+.electoral-lists-card-content{
+  gap: 1rem;
+}
+.research-report-pagination .page-link.next i, .research-report-pagination .page-link.prev i {
+  color: white;
+}
+.research-report-pagination .page-item .page-link{
+  font-size: 1.3rem;
+}
+ .filter-container button{
+  padding: 0.5rem 1.8rem;
+}

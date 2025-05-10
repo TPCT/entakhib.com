@@ -1,0 +1,87 @@
+.filter-container {
+  grid-template-columns: 1fr !important;
+}
+.Votes-percentages-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 3rem;
+}
+.Votes-percentages-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #00000059;
+  align-items: center;
+  border-radius: 10px;
+}
+.Votes-percentages-card h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 26px;
+}
+.Votes-percentages-card a {
+  text-decoration: none;
+  margin-bottom: 2rem;
+  font-size: 18px;
+}
+.Votes-percentages-card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#PrimaryElectionResults .filter-container {
+  grid-template-columns: 1fr;
+}
+@media (max-width: 991px) {
+  .Votes-percentages-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 767px) {
+  .Votes-percentages-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Ticket 30 */
+.filter-container select {
+  background-position: center right 12px;
+}
+.filter-container .secondary-btn {
+  padding: 0.5rem 1.8rem;
+  font-size: 1.1rem;
+  font-family: PNU-bold;
+}
+.filter-container form label {
+  font-size: 1.3rem;
+  font-family: PNU-Bold;
+}
+.Votes-percentages-card h2 {
+  font-size: 1.3rem;
+  font-family: PNU-Medium;
+}
+.Votes-percentages-card a {
+  font-size: 1.1rem;
+  font-family: PNU-Medium;
+}
+/* Ticket 29 */
+.arabic-version .Votes-percentages-card h2 {
+  font-size: 1.2rem;
+  font-family: PNU-medium;
+}
+.arabic-version .Votes-percentages-card a {
+  font-size: 1.1rem;
+  font-family: PNU-medium;
+}
+/* Ticket 50 */
+.Votes-percentages-card a {
+  font-size: 1rem;
+}
+.filter-container .secondary-btn {
+  font-size: 1rem;
+}
+.Votes-percentages-card a{
+  padding: 0.5rem 1.8rem;
+}

@@ -1,0 +1,58 @@
+#Candidates .filter-container {
+  grid-template-columns: 1fr;
+}
+#Candidates .filter-container form {
+  width: 75%;
+}
+#Candidates .filter-container form select {
+  min-width: 120px;
+}
+@media (max-width: 990px) {
+  #Candidates .filter-container form {
+    width: 100%;
+  }
+  #Candidates .filter-container form select {
+    min-width: 200px;
+  }
+}
+/* Ticket 34 */
+#Candidates .secondary-btn a svg {
+  transform: rotate(180deg);
+}
+#Candidates .arabic-version .secondary-btn a svg {
+  transform: unset;
+}
+.Candidate-votes-card-content {
+  gap: 1rem;
+}
+#Candidates .filter-container .secondary-btn {
+  font-size: 1rem;
+  font-family: PNU-bold;
+  padding: 0.5rem 1.8rem;
+}
+#Candidates .filter-container form select {
+  font-size: 1rem;
+}
+#Candidates .filter-container form label {
+  font-size: 1.2rem;
+  font-family: PNU-medium;
+}
+#Candidates .Candidate-votes-card .Candidate-votes-card-content h3 {
+  font-family: PNU-medium;
+  line-height: 1.5rem;
+}
+#Candidates .research-report-pagination .page-link i {
+  color: white;
+}
+#Candidates .research-report-pagination .page-link {
+  font-size: 1.3rem;
+}
+/* Ticket 53 */
+#Candidates .Candidate-votes-card .Candidate-votes-card-content h3 {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.Candidate-votes-card-content .secondary-btn {
+  font-size: 1rem;
+  padding: 0.5rem 1.8rem;
+}

@@ -1,0 +1,37 @@
+#Profile button{
+    position: relative;
+    margin-top: 3rem !important;
+}
+#Profile {
+    background-image: url("../Assets/Img/Rectangle\ 339.png");
+    height: 100vh;
+}
+.Profile-form form{
+    box-shadow: 0px 0px 50px 0px #0000001F;
+    background-color: white;
+}   
+.Profile-form{
+    width: 70%;
+    margin-bottom: 3rem;
+    padding-top: 8rem;
+}
+.Edit-Profile input {
+    background-image: url(../Assets/Icons/pen\ 5.svg);
+    background-position: center right 15px;
+    background-repeat: no-repeat;
+}
+.arabic-version .Edit-Profile input{
+    background-position: center left 15px;
+}
+.Profile-form label {
+    font-family: PNU-Medium;
+}
+.Profile-form button {
+    padding: 0.3rem 2rem;
+}
+.Profile-form-topic h2{
+    font-size: 1.8rem;
+}
+#Profile button{
+    padding: 0.3rem 2rem;
+}

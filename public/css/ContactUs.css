@@ -1,0 +1,114 @@
+.contactUs-1st-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 3rem;
+}
+.contactUs-greybox {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 20px;
+  background: #0000000f;
+  border-radius: 10px;
+}
+.contactUs-greybox p {
+  margin-bottom: 0;
+}
+.contactUs-greybox a {
+  margin-bottom: 0;
+  color: var(--main-color);
+}
+.contactUs-greybox:last-child {
+  justify-content: center;
+}
+.contactUs-greybox:last-child picture {
+  border: #000000 solid 1px;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media (max-width: 990px) {
+  .contactUs-1st-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contactUs-greybox p {
+  font-size: 1.1rem;
+  font-family: PNU-Bold;
+}
+.arabic-version .contactUs-greybox p {
+  font-size: 1.2rem;
+}
+.arabic-version .contactUs-greybox p {
+  font-size: 1.1rem;
+}
+.contactUs-greybox p a {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+.arabic-version .contactUs-greybox p a {
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+.ContactUs-form-topic h2 {
+  font-size: 1.5rem;
+}
+.arabic-version .ContactUs-form-topic h2 {
+  font-size: 1.6rem;
+}
+.arabic-version .ContactUs-form-topic h2 {
+  font-size: 1.5rem;
+}
+.ContactUs-form-topic {
+  padding-inline: 0;
+}
+.ContactUs-form label {
+  font-size: 1rem;
+}
+.arabic-version .ContactUs-form label {
+  font-size: 1.1rem;
+}
+.ContactUs-form button {
+  font-size: 1rem;
+}
+.arabic-version .ContactUs-form button {
+  font-size: 1.1rem;
+}
+.arabic-version .ContactUs-form {
+  font-size: 1rem;
+}
+/* Ticket 48 */
+#ContactUs .main-btn {
+  font-size: 1rem;
+}
+.ContactUs-form label {
+  font-size: 1rem;
+}
+.contactUs-greybox p a {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  font-family: PNU-Bold;
+}
+/* Ticket 54 */
+.arabic-version .ContactUs-form label {
+  font-size: 1rem;
+}
+.arabic-version .ContactUs-form h2 {
+  font-size: 1.6rem;
+}
+.arabic-version .contactUs-greybox p {
+  font-size: 1.1rem;
+  font-family: "PNU-Bold";
+}
+
+@media (max-width:576px) {
+  .contactUs-greybox img{
+    width: 30px;
+  }
+}

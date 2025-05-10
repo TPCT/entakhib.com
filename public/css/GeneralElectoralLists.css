@@ -1,0 +1,80 @@
+.GeneralElectoralLists-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.GeneralElectoralLists-card{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid #00000059;
+    border-radius: 10px;
+}
+.GeneralElectoralLists-card picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000000D;
+}
+.GeneralElectoralLists-card img{
+    width: 100%;
+}
+.GeneralElectoralLists-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.GeneralElectoralLists-card-content h2{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.GeneralElectoralLists-card a{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1.8rem;
+    width:161px;
+    text-align: center;
+}
+.GeneralElectoralLists-btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: auto;
+}
+@media (max-width:991px) {
+    .GeneralElectoralLists-container{
+        grid-template-columns: 1fr;
+    }
+    .GeneralElectoralLists-card-content h2{
+        padding-top: 3rem;
+      
+    }
+}
+
+/* ticket 15  */
+.GeneralElectoralLists-card-content h2{
+    font-size: 1.6rem;
+    font-family: PNU-Medium;
+}
+.GeneralElectoralLists-card-content p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-family: PNU-Medium;
+}
+.arabic-version .GeneralElectoralLists-card-content h2{
+    font-size: 1.4rem;
+}
+.arabic-version .GeneralElectoralLists-card-content p{
+    line-height: 1.8rem;
+}
+.GeneralElectoralLists-card-content a{
+
+    font-family: PNU-Medium;
+}
+
+a svg {
+    transform: rotate(180deg);
+}
+.arabic-version a svg {
+    transform: unset;
+}

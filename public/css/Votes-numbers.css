@@ -1,0 +1,97 @@
+.Votes-number-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.Votes-numbers-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  border: 1px solid #00000059;
+  border-radius: 10px;
+}
+.Votes-numbers-card h2 {
+  font-size: 26px;
+}
+.Votes-numbers-card p {
+  font-size: 18px;
+}
+.Votes-numbers-card h4 {
+  font-size: 28px;
+  color: #bd3939;
+}
+.Votes-numbers-card picture {
+  background-color: #f2f2f2;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.Votes-numbers-card picture img {
+  width: 100%;
+}
+.arabic-version .Votes-numbers-card picture {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: unset;
+  border-bottom-left-radius: unset;
+}
+.Votes-numbers-card-content {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+@media (max-width: 991px) {
+  .Votes-number-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Ticket 28 */
+.Votes-numbers-card p {
+  font-size: 1.1rem;
+  font-family: PNU-Medium;
+  text-align: justify;
+}
+.Votes-numbers-card h4 {
+  font-size: 1.5rem;
+}
+.Votes-numbers-card-content {
+  padding: 2rem 2rem;
+}
+.filter-container form button{
+  padding: 0.5rem 1.8rem;
+  font-size: 1.1rem;
+  font-family: PNU-Bold;
+}
+.filter-container form label{
+  
+  font-size: 1.3rem;
+  font-family: PNU-Bold;
+}
+.Votes-numbers-card h2{
+  font-size: 1.5rem;
+  font-family: PNU-Medium;
+  margin-bottom: 1.2rem;
+}
+/* Ticket 27 */
+.arabic-version .Votes-numbers-card h2 {
+  font-size: 1.4rem;
+  font-family: PNU-Medium;
+}
+.arabic-version .Votes-numbers-card h4 {
+  font-size: 1.5rem;
+}
+.arabic-version .filter-container input {
+  background-position: center right 10px;
+}
+.arabic-version .filter-container form label{
+  font-size: 1.2rem;
+}
+.filter-container form button{
+  font-size: 1rem;
+}

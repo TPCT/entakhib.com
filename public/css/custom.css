@@ -1,0 +1,604 @@
+.News-content{
+    padding-bottom: 1rem;
+}
+
+.page-item.active .page-link{
+    background-color: #b3b3b3 !important;
+}
+
+.iti {
+    width: 100%;
+}
+
+.iti__flag-container{
+    z-index: 999;
+}
+
+.has-validation .invalid-feedback{
+    display: block;
+}
+
+.contactUs-1st-container{
+    margin-bottom: 1rem;
+}
+
+.footer-copyright-container-centered a{
+    padding-inline-end: unset !important;
+    padding: unset;
+}
+
+br{
+    display: none;
+}
+
+.error-404{
+    min-height: 70vh;
+}
+
+.Candidate-votes-card picture img{
+    height: 235px;
+}
+
+.PersonalProfile-1st-container-mainpic img{
+    height: 450px;
+}
+
+.VotingMechanism-grid-left img{
+    height: 100%;
+    object-position: top;
+}
+
+.VotingMechanism-grid-right iframe{
+    height: 500px !important;
+}
+
+.local-list-card img {
+    height: 204px;
+}
+
+.local-list-card div{
+    min-height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.local-list-card div p{
+    flex: 1
+}
+
+.arabic-version .local-list-card a{
+    max-width: fit-content;
+}
+
+.local-list-container .local-list-card img{
+    min-height: 204px;
+}
+
+.GeneralElectoralLists-card img {
+    width: 90%;
+    max-height: 204px;
+}
+
+.GeneralElectoralLists-card-content a{
+    flex: 1;
+}
+
+.text-dark > *{
+    color: black !important;
+}
+
+.text-white > *{
+    color: white !important;
+}
+
+/*.text-white:hover > *{*/
+/*    color: black !important;*/
+/*}*/
+
+.position-static{
+    transform: unset !important;
+}
+
+
+.Votes-numbers-card picture img {
+    width: 100%;
+    height: 204px;
+}
+
+.Votes-percentages-card img{
+    height: 238px;
+}
+
+.main-footer-container .footer-logo-container img {
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+
+#PrimaryElectionResults .filter-container select {
+    min-width: 150px !important;
+}
+
+.homepage-news-banner-image img{
+    width: 100%;
+    height: 130px;
+}
+
+.about-card img{
+    width: 100px;
+    height: 100px;
+}
+
+#PersonalProfile .share-header{
+    border: unset;
+}
+
+/*#PersonalProfile .share-btn{*/
+/*    border: 1px solid black;*/
+/*    color: white;*/
+/*    background-color: black;*/
+/*}*/
+
+/*#PersonalProfile .share-btn > *{*/
+/*    color: white !important;*/
+/*}*/
+
+.PersonalProfile-2nd-container-card p{
+    height: 100%;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid{
+    background-position: left calc(.375em + .1875rem) center !important;
+}
+
+.agreement-link{
+    color: #bd3939 !important;
+}
+
+.home-1st-form-box #voting-button {
+    font-size: 1.1rem;
+    padding: 0.3rem 1.5rem;
+
+}
+
+
+/*.GeneralElectoralLists-btn-group a , .GeneralElectoralLists-btn-group button{*/
+/*    font-size: 1rem;*/
+/*    padding: 0.5rem 1.8rem;*/
+/*    width: 161px;*/
+/*    text-align: center;*/
+/*}*/
+
+
+
+#GenralStateName .candidate-container .local-list-card a {
+    font-size: 1rem;
+}
+
+#GenralStateName .GenralStateName-opening p{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+
+}
+
+
+
+#GenralStateName .GenralStateName-opening h2 {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.election-sub-button{
+    font-size: 1.1rem;
+}
+
+.PersonalProfile-2nd-container-card p {
+     height: unset;
+}
+
+
+#About .about-card img {
+    width: 60px;
+    height: 60px;
+}
+
+.candidate-numbers {
+    gap: 10px;
+}
+
+.candidate-numbers-div{
+    font-size: 1.1rem;
+}
+
+.PersonalProfile-2nd-container-card p , .PersonalProfile-2nd-container-card p span {
+    height: unset;
+    font-size: 16px;
+}
+
+.PersonalProfile-2nd-container-card {
+    justify-content: start;
+    gap: 5px;
+}
+
+
+.text-white:hover .submit-edit-profile {
+    color: black !important;
+}
+
+#Application form div .main-btn{
+    display: flex;
+    align-items: center;
+}
+
+.edit-button{
+    color: white !important;
+}
+
+.edit-button:hover{
+    color: black !important;
+}
+
+.login-form {
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+}
+
+#Application {
+     height: unset;
+}
+
+@media (max-width: 767px) {
+    .GeneralElectoralLists-card {
+        grid-template-columns: 1fr ;
+    }
+
+    .GeneralElectoralLists-card a {
+        min-width: 100%;
+    }
+
+}
+
+@media (max-width: 990px) {
+    #GeneralElectoralLists div .main-btn {
+        flex: 1;
+    }
+
+}
+
+#GeneralElectoralLists div .main-btn {
+    top: unset;
+    transform: unset;
+}
+
+@media (max-width: 1200px) {
+    .GeneralElectoralLists-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.eligate-btn{
+    flex: 1;
+}
+
+.GeneralElectoralLists-card a {
+    min-width: 161px;
+}
+
+@media (min-width: 1200px) {
+
+    .hewader-panel-main .has-sub::before {
+        content: "";
+        display: inline-block;
+        width: 16px;  /* Adjust size */
+        height: 16px; /* Adjust size */
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23000000' d='M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z'/%3E%3C/svg%3E");
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: -20px !important;
+        position: absolute;
+        top: 40%;
+    }
+
+    .hewader-panel-main .has-sub{
+        position: relative;
+    }
+
+    .hewader-panel-main .has-sub .has-sub::before {
+        content: "";
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23000000' d='M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z'/%3E%3C/svg%3E);
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: 12px !important;
+        position: absolute;
+        top: 40%;
+        z-index: 20;
+    }
+
+
+
+
+}
+
+
+#GenralStateName .local-list-card div {
+    min-height: unset;
+}
+
+
+@media (max-width: 767px) {
+    .partie-show-elect{
+        margin-bottom: 10px;
+    }
+    .PersonalProfile-1st-container-mainpic img {
+        height: 100%;
+    }
+
+}
+
+.footer-copyright-container-centered p {
+    font-family: unset !important;
+}
+
+.candidate-container{
+    display: block;
+}
+
+.local-list-card div{
+    min-height: 250px !important;
+}
+
+.voted-before-message span{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/*@media screen and (min-width: 768px) {*/
+/*    .voted-before-message{*/
+/*        padding-right: 286px;*/
+/*        justify-content: unset !important;*/
+/*    }*/
+/*}*/
+
+@media (max-width: 992px) {
+    .candidates .swiper-pagination {
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 460px) {
+    .navigation-header picture img, .navigation-header picture {
+        width: 60px;
+        max-height: 95px;
+        object-fit: cover;
+    }
+
+}
+
+@media (max-width: 335px) {
+    .navigation-header picture img , .navigation-header picture {
+        width: 52px;
+    }
+}
+
+@media (max-width: 315px) {
+    .navigation-header picture img , .navigation-header picture {
+        width: 48px;
+    }
+}
+
+
+
+
+
+.dissabled-arrow i {
+    color: black!important;
+}
+
+@media (max-width: 767px) {
+    .slider-mobile-image{
+        display: block;
+
+    }
+
+    .slider-desktop-image{
+        display: none;
+
+    }
+
+}
+
+@media (min-width: 767px) {
+    .slider-mobile-image{
+        display: none;
+
+    }
+
+    .slider-desktop-image{
+        display: block;
+
+    }
+
+}
+
+ .has-arrow::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23000000' d='M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 16px !important;
+    position: absolute;
+    top: 37%;
+}
+
+
+.Votes-percentages-card .secondary-btn:hover i {
+    color: white;
+
+}
+@media (max-width: 767px) {
+    .empty-div{
+        display: none;
+    }
+
+        .candidates .swiper.mySwiperOne  {
+            height: 470px;
+        }
+
+    #PrimaryElectionResults .tabpane-two .filter-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hewader-panel-main{
+        padding-left: 0;
+    }
+    .last-slider-img img ,
+    #PersonalProfile  .PersonalProfile-1st-container .PersonalProfile-1st-container-mainpic img
+    {
+        height: 26vh !important;
+        object-fit: fill;
+    }
+
+
+
+    .home-slider1-section .slider-mobile-image img {
+        object-fit: fill;
+    }
+
+
+}
+
+.popup-title{
+    font-size: 35px !important;
+}
+
+@media (max-width: 1200px) {
+
+    .hewader-panel-main .has-sub .has-sub{
+        position: relative;
+    }
+
+    #cssmenu.small-screen ul ul .submenu-button:before {
+        top: 19px;
+        right: 25px;
+    }
+
+    #cssmenu.small-screen ul ul .submenu-button:after {
+        top: 49%;
+        right: 50%;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    #cssmenu > ul > li.has-sub > ul > li.has-sub > ul > li a {
+        padding-inline-start: 45px;
+    }
+}
+
+.popup.board .popup-header{
+    flex-direction: column;
+}
+
+img.check{
+    width: 100px;
+    height: 100px;
+}
+
+img.check-2{
+    width: 50px;
+    height: 50px;
+}
+
+.voted-before{
+    font-size: 16px;
+    padding-inline: 10px;
+}
+
+.coming-soon{
+    background-image: url(../images/Flag.png);
+    background-size: 100% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.coming-soon-logo{
+    width: 292px;
+    height: 292px;
+}
+
+.coming-soon-header{
+    font-size: 3rem;
+    color: #347E3F;
+}
+
+.coming-soon-paragraph{
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 600px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 991px) {
+    .coming-soon{
+        background-image: url(../images/Flag-Phone.png);
+        background-size: 100% 100%;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .coming-soon .mt-5{
+        margin-top: unset;
+    }
+
+    .coming-soon-logo{
+        width: 150px;
+        height: 150px;
+    }
+
+    .coming-soon-header{
+        font-size: 2rem;
+        color: #347E3F;
+    }
+
+    .coming-soon-paragraph{
+        margin-bottom: 17rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+        width: 300px;
+        text-align: center;
+    }
+}
+
+.navigation-header{
+    height: 95px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.navigation-header img{
+    height: auto !important;
+    width: auto !important;
+    object-fit: fill !important;
+}
+
+.News-card img{
+    height: fit-content !important;
+}
+
+@media screen and (max-width: 767px) {
+    input::-webkit-calendar-picker-indicator{
+        display: none;
+    }
+
+    input[type="date"]::-webkit-input-placeholder{
+        visibility: hidden !important;
+    }
+}

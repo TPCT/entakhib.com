@@ -1,0 +1,144 @@
+.local-list-card{
+    display: flex;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    border: 1px solid #00000059;
+    border-radius: 10px;
+    gap: 20px;
+    flex-shrink: 0;
+    
+}
+.local-list-card picture{
+    padding: 1rem;
+    border-right: 1px solid #00000059;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.local-list-card div{
+    padding: 1rem;
+}
+.arabic-version .local-list-card picture{
+    border-right: unset;
+    border-left: 1px solid #00000059;
+}
+.local-list-card img{
+    width: 204px;
+}
+.local-list-card h3{
+    font-size: 26px;
+}
+.local-list-card h4{
+    font-size: 28px;
+    color: #BD3939;
+}
+.candidate-container .local-list-card{
+   flex: 1;
+   
+}
+.candidate-container .local-list-card picture{
+   border: none;
+   
+}
+.candidate-container{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.candidate-container picture{
+    background-color: #0000000D;
+}
+.local-list-container .local-list-card a{
+    margin-left: auto;
+}
+@media (max-width:990px) {
+    .candidate-container{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:768px) {
+    .local-list-card{
+        flex-direction: column;
+        width: 100%;
+    }
+    .local-list-card picture{
+        width: 100%;
+        border: none;
+    }
+    .local-list-card div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+}
+
+.votes-percentage-charts-container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 100px;
+    
+}
+.votes-percentage-pie-chart
+,.votes-percentage-bar-chart{
+    width: 90% !important;
+    height: auto !important;
+
+}
+
+.GenralStateName-opening h2{
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+.arabic-version .GenralStateName-opening h2{
+    font-size: 1.5rem;
+}
+.GenralStateName-opening p{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+.arabic-version .GenralStateName-opening p{
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+.local-list-card a{
+    font-size: 1.1rem;
+}
+.arabic-version .local-list-card a{
+    padding: 0.5rem 2rem;
+    font-size: 1.1rem;
+}
+.local-list-card a svg{
+    transform: rotate(180deg);
+
+}
+.arabic-version .local-list-card a svg{
+    transform: unset;
+}
+.local-list-card h3{
+    font-size: 1.6rem;
+    font-family: PNU-Medium;
+}
+.arabic-version .local-list-card h3{
+    font-size: 1.4rem;
+
+}
+@media (max-width:1200px) and (min-width:992px) {
+    .arabic-version .local-list-card a{
+        padding: 0.5rem 0.5rem;
+        
+    }
+}
+.local-list-container .local-list-card a{
+    margin-bottom: 2rem;
+}
+@media (max-width:767px) {
+    .arabic-version .local-list-card a {
+        max-width: 180px;
+        align-self: center;
+    }
+}
